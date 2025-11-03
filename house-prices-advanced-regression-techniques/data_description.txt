@@ -521,3 +521,32 @@ SaleCondition: Condition of sale
        Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
        Family	Sale between family members
        Partial	Home was not completed when last assessed (associated with New Homes)
+
+
+
+
+
+==================================================
+OPTIMIZED CATBOOST PERFORMANCE
+==================================================
+CAT MSE:  427,537,122.01
+CAT RMSE: 20,676.97
+CAT MAE:  13,656.00
+CAT R²:   0.9132
+
+
+==================================================
+OPTIMIZED LIGHTGBM PERFORMANCE
+==================================================
+LGB MSE:  429,221,617.35
+LGB RMSE: 20,717.66
+LGB MAE:  13,137.17
+LGB R²:   0.9128
+
+==================================================
+OPTIMIZED XGBOOST PERFORMANCE
+==================================================
+XGB MSE:  435,285,728.00
+XGB RMSE: 20,863.50
+XGB MAE:  13,353.44
+XGB R²:   0.9116
