@@ -1,0 +1,164 @@
+
+name: 6attri_gdp
+df[['GDP','Gross primary education enrollment (%)', 'Infant mortality', 'Maternal mortality ratio','Out of pocket health expenditure','Physicians per thousand']]
+note: Austria and algeria should absolutely not be in the same cluster
+      China and US???
+cluster
+1    113
+0     69
+2      2
+Name: count, dtype: int64
+                  GDP  Gross primary education enrollment (%)  \
+cluster                                                         
+0        3.875796e+10                                1.040768   
+1        4.240826e+11                                1.021088   
+2        2.066885e+13                                1.010000   
+
+         Infant mortality  Maternal mortality ratio  \
+cluster                                               
+0               38.257971                345.060386   
+1               11.305310                 48.800885   
+2                6.500000                 24.000000   
+
+         Out of pocket health expenditure  Physicians per thousand  
+cluster                                                             
+0                                0.289783                 0.454710  
+1                                0.354973                 2.585929  
+2                                0.217500                 2.295000
+
+
+==================================================
+CLUSTER 0
+==================================================
+['Afghanistan', 'Angola', 'Belize', 'Benin', 'Botswana', 'Brunei', 'Burkina Faso', 'Burundi', 'Ivory Coast', 'Cape Verde', 'Cameroon', 'Central African Republic', 'Chad', 'Republic of the Congo', 'Democratic Republic of the Congo', 'Djibouti', 'Dominica', 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Fiji', 'Gabon', 'The Gambia', 'Ghana', 'Guinea', 'Guinea-Bissau', 'Haiti', 'Kenya', 'Kiribati', 'Laos', 'Lesotho', 'Liberia', 'Madagascar', 'Malawi', 'Mali', 'Marshall Islands', 'Mauritania', 'Federated States of Micronesia', 'Mozambique', 'Namibia', 'Nepal', 'Niger', 'Nigeria', 'Oman', 'Palau', 'Papua New Guinea', 'Qatar', 'Rwanda', 'Saint Vincent and the Grenadines', 'Samoa', 'S�����������', 'Senegal', 'Seychelles', 'Sierra Leone', 'Solomon Islands', 'South Africa', 'South Sudan', 'Sudan', 'Suriname', 'Tanzania', 'Thailand', 'East Timor', 'Togo', 'Tonga', 'Tuvalu', 'Uganda', 'Vanuatu', 'Zambia', 'Zimbabwe']
+
+==================================================
+CLUSTER 1
+==================================================
+['Albania', 'Algeria', 'Andorra', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'The Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Bhutan', 'Bolivia', 'Brazil', 'Bulgaria', 'Cambodia', 'Canada', 'Chile', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Estonia', 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Grenada', 'Guatemala', 'Guyana', 'Honduras', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Republic of Ireland', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Latvia', 'Lebanon', 'Libya', 'Lithuania', 'Luxembourg', 'Malaysia', 'Maldives', 'Malta', 'Mauritius', 'Mexico', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Myanmar', 'Netherlands', 'New Zealand', 'Nicaragua', 'Norway', 'Pakistan', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Romania', 'Russia', 'Saint Kitts and Nevis', 'Saint Lucia', 'San Marino', 'Saudi Arabia', 'Serbia', 'Singapore', 'Slovakia', 'Slovenia', 'South Korea', 'Spain', 'Sri Lanka', 'Sweden', 'Switzerland', 'Syria', 'Tajikistan', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Vietnam', 'Yemen']
+
+==================================================
+CLUSTER 2
+==================================================
+['China', 'United States']
+
+
+
+
+name: 10attr_gdp
+df[['GDP','Gross primary education enrollment (%)', 'Infant mortality', 'Maternal mortality ratio','Out of pocket health expenditure','Physicians per thousand','Birth Rate','Life expectancy','Unemployment rate','Fertility Rate']]
+notes: Austria and algeria should absolutely not be in the same cluster
+      China and US???
+
+cluster
+0    116
+1     54
+2      2
+Name: count, dtype: int64
+                  GDP  Gross primary education enrollment (%)  \
+cluster                                                         
+0        4.177640e+11                                1.027138   
+1        3.931044e+10                                1.032000   
+2        2.066885e+13                                1.010000   
+
+         Infant mortality  Maternal mortality ratio  \
+cluster                                               
+0               10.964655                 44.896552   
+1               45.107407                416.870370   
+2                6.500000                 24.000000   
+
+         Out of pocket health expenditure  Physicians per thousand  \
+cluster                                                              
+0                                0.330284                 2.475431   
+1                                0.355685                 0.284722   
+2                                0.217500                 2.295000   
+
+         Birth Rate  Life expectancy  Unemployment rate  Fertility Rate  
+cluster                                                                  
+0         15.071466        76.312931           0.066891        1.986638  
+1         32.942222        63.235185           0.070906        4.355556  
+2         11.250000        77.750000           0.095100        1.710000
+
+
+==================================================
+CLUSTER 0
+==================================================
+['Albania', 'Algeria', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'The Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Bhutan', 'Bolivia', 'Brazil', 'Brunei', 'Bulgaria', 'Cape Verde', 'Cambodia', 'Canada', 'Chile', 'Colombia', 'Costa Rica', 'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Estonia', 'Fiji', 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Guatemala', 'Guyana', 'Honduras', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Republic of Ireland', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Libya', 'Lithuania', 'Luxembourg', 'Malaysia', 'Maldives', 'Malta', 'Mauritius', 'Mexico', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Myanmar', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Norway', 'Oman', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'Saudi Arabia', 'Serbia', 'Singapore', 'Slovakia', 'Slovenia', 'South Korea', 'Spain', 'Sri Lanka', 'Suriname', 'Sweden', 'Switzerland', 'Syria', 'Tajikistan', 'Thailand', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Vietnam']
+
+==================================================
+CLUSTER 1
+==================================================
+['Afghanistan', 'Angola', 'Benin', 'Botswana', 'Burkina Faso', 'Burundi', 'Ivory Coast', 'Cameroon', 'Central African Republic', 'Chad', 'Comoros', 'Republic of the Congo', 'Democratic Republic of the Congo', 'Djibouti', 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Gabon', 'The Gambia', 'Ghana', 'Guinea', 'Guinea-Bissau', 'Haiti', 'Kenya', 'Lesotho', 'Liberia', 'Madagascar', 'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Namibia', 'Niger', 'Nigeria', 'Pakistan', 'Papua New Guinea', 'Rwanda', 'Samoa', 'S�����������', 'Senegal', 'Sierra Leone', 'Solomon Islands', 'South Africa', 'South Sudan', 'Sudan', 'Tanzania', 'East Timor', 'Togo', 'Tonga', 'Uganda', 'Vanuatu', 'Yemen', 'Zambia', 'Zimbabwe']
+
+==================================================
+CLUSTER 2
+==================================================
+['China', 'United States']
+
+
+
+
+Name: 26attri
+==================================================
+CLUSTER 0
+==================================================
+['Afghanistan', 'Albania', 'Algeria', 'Argentina', 'Armenia', 'Australia', 'Azerbaijan', 'The Bahamas', 'Bangladesh', 'Barbados', 'Belgium', 'Belize', 'Bhutan', 'Botswana', 'Brazil', 'Bulgaria', 'Cape Verde', 'Canada', 'Chile', 'Colombia', 'Costa Rica', 'Croatia', 'Czech Republic', 'Dominican Republic', 'El Salvador', 'Estonia', 'Fiji', 'France', 'Gabon', 'Georgia', 'Germany', 'Greece', 'Guatemala', 'Honduras', 'Hungary', 'Indonesia', 'Iran', 'Iraq', 'Republic of Ireland', 'Israel', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Lithuania', 'Luxembourg', 'Madagascar', 'Malawi', 'Malaysia', 'Malta', 'Mauritius', 'Mexico', 'Moldova', 'Mongolia', 'Morocco', 'Myanmar', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Oman', 'Pakistan', 'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Romania', 'Russia', 'Saudi Arabia', 'Serbia', 'Slovakia', 'Slovenia', 'South Korea', 'Spain', 'Sri Lanka', 'Sudan', 'Syria', 'Tajikistan', 'Thailand', 'East Timor', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Ukraine', 'United Kingdom', 'Uruguay', 'Vietnam', 'Zambia']
+
+==================================================
+CLUSTER 1
+==================================================
+['Angola', 'Benin', 'Burkina Faso', 'Ivory Coast', 'Cameroon', 'Central African Republic', 'Republic of the Congo', 'Democratic Republic of the Congo', 'Equatorial Guinea', 'The Gambia', 'Ghana', 'Guinea-Bissau', 'Kenya', 'Liberia', 'Mali', 'Mozambique', 'Niger', 'Nigeria', 'Senegal', 'Sierra Leone', 'Tanzania', 'Togo', 'Uganda']
+
+==================================================
+CLUSTER 2
+==================================================
+['China', 'India', 'United States']
+
+cluster
+0    96
+1    23
+2     3
+Name: count, dtype: int64
+         Density\n(P/Km2)  Agricultural Land( %)  Armed Forces size  \
+cluster                                                               
+0              158.750000               0.000041       1.506667e+05   
+1               87.130435               0.000045       3.321739e+04   
+2              217.666667               0.000054       2.361667e+06   
+
+         Birth Rate  Co2-Emissions         CPI  CPI Change (%)  \
+cluster                                                          
+0         16.920000   1.405069e+05  159.603438        0.000476   
+1         36.193043   1.203278e+04  161.797391        0.000590   
+2         13.453333   5.769004e+06  140.920000        0.000603   
+
+         Fertility Rate  Forested Area (%)           GDP  ...  \
+cluster                                                   ...   
+0              2.214687           0.002975  4.089354e+11  ...   
+1              4.861739           0.003563  4.723522e+10  ...   
+2              1.880000           0.002670  1.464957e+13  ...   
+
+         Out of pocket health expenditure  Physicians per thousand  \
+cluster                                                              
+0                            3.325937e-09                 2.258750   
+1                            4.055217e-09                 0.126087   
+2                            3.620000e-09                 1.816667   
+
+           Population  Population: Labor force participation (%)  \
+cluster                                                            
+0        3.232161e+07                                   0.006063   
+1        3.109352e+07                                   0.006842   
+2        1.030791e+09                                   0.005977   
+
+         Tax revenue (%)  Total tax rate  Unemployment rate  Urban_population  \
+cluster                                                                         
+0               0.001696        0.388354       7.070729e-10      2.055969e+07   
+1               0.001062        0.483174       4.483913e-10      1.367331e+07   
+2               0.001007        0.485000       8.126667e-10      5.282095e+08   
+
+          Latitude  Longitude  
+cluster                        
+0        23.229943  24.166294  
+1         5.261876   7.880624  
+2        31.181861  29.148462  
+
+[3 rows x 26 columns]
