@@ -162,3 +162,38 @@ cluster
 2        31.181861  29.148462  
 
 [3 rows x 26 columns]
+
+
+
+name: attri_from_ppe
+cluster
+0    103
+2     35
+1      3
+Name: count, dtype: int64
+         Infant mortality  Out of pocket health expenditure  Life expectancy  \
+cluster                                                                        
+0               13.640777                          0.297883        74.932039   
+1               14.300000                          0.362000        74.966667   
+2               47.291429                          0.500000        63.220000   
+
+         Co2-Emissions  Minimum wage  Unemployment rate  Urban_population  
+cluster                                                                    
+0         1.313200e+05      2.618058           0.062909      1.902880e+07  
+1         5.769004e+06      2.806667           0.081267      5.282095e+08  
+2         2.235326e+04      0.508286           0.084009      1.210663e+07
+
+==================================================
+CLUSTER 0
+==================================================
+['Algeria', 'Argentina', 'Australia', 'Azerbaijan', 'The Bahamas', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Bhutan', 'Bolivia', 'Bosnia and Herzegovina', 'Brazil', 'Bulgaria', 'Cape Verde', 'Canada', 'Chile', 'Colombia', 'Costa Rica', 'Croatia', 'Czech Republic', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Estonia', 'Fiji', 'France', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Guyana', 'Honduras', 'Hungary', 'Indonesia', 'Iran', 'Republic of Ireland', 'Israel', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Madagascar', 'Malawi', 'Malaysia', 'Malta', 'Mauritius', 'Mexico', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Mozambique', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Oman', 'Panama', 'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Romania', 'Russia', 'Saint Vincent and the Grenadines', 'Samoa', 'Saudi Arabia', 'Serbia', 'Slovakia', 'Slovenia', 'Solomon Islands', 'South Korea', 'Spain', 'Sri Lanka', 'Syria', 'Tanzania', 'Thailand', 'East Timor', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Uganda', 'Ukraine', 'United Kingdom', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Venezuela', 'Vietnam']
+
+==================================================
+CLUSTER 1
+==================================================
+['China', 'India', 'United States']
+
+==================================================
+CLUSTER 2
+==================================================
+['Afghanistan', 'Albania', 'Angola', 'Armenia', 'Benin', 'Botswana', 'Burkina Faso', 'Ivory Coast', 'Cameroon', 'Central African Republic', 'Chad', 'Comoros', 'Republic of the Congo', 'Democratic Republic of the Congo', 'Equatorial Guinea', 'Gabon', 'The Gambia', 'Georgia', 'Guinea-Bissau', 'Haiti', 'Iraq', 'Lesotho', 'Mali', 'Mauritania', 'Myanmar', 'Niger', 'Nigeria', 'Pakistan', 'Senegal', 'Sierra Leone', 'Sudan', 'Tajikistan', 'Togo', 'Turkmenistan', 'Zambia']
