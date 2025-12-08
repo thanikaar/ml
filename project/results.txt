@@ -1,0 +1,200 @@
+normal attributes:
+============================================================
+DECISION TREE WITH HYPERPARAMETER TUNING
+============================================================
+
+Searching for best hyperparameters for Decision Tree...
+Parameter space:
+  max_depth: [3, 5, 7, 10, 15, 20, None]
+  min_samples_split: [2, 5, 10, 15, 20]
+  min_samples_leaf: [1, 2, 4, 8, 10]
+  criterion: ['gini', 'entropy']
+  splitter: ['best', 'random']
+  max_features: ['sqrt', 'log2', None]
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+
+Best parameters found:
+  splitter: best
+  min_samples_split: 2
+  min_samples_leaf: 2
+  max_features: None
+  max_depth: 20
+  criterion: gini
+
+Best cross-validation score: 0.9871 (98.71%)
+
+Decision Tree Test Accuracy: 0.9900 (99.00%)
+
+------------------------------------------------------------
+Classification Report:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+  Gryffindor       1.00      0.99      0.99        68
+  Hufflepuff       0.97      1.00      0.99        75
+   Ravenclaw       0.99      0.97      0.98        77
+   Slytherin       1.00      1.00      1.00        80
+
+    accuracy                           0.99       300
+   macro avg       0.99      0.99      0.99       300
+weighted avg       0.99      0.99      0.99       300
+
+Confusion Matrix:
+------------------------------------------------------------
+
+            Gryffindor  Hufflepuff  Ravenclaw   Slytherin   
+Gryffindor            67           0           1           0
+Hufflepuff             0          75           0           0
+Ravenclaw              0           2          75           0
+Slytherin              0           0           0          80
+
+------------------------------------------------------------
+Decision Tree Feature Importance:
+------------------------------------------------------------
+1. Dark Arts      : 0.3483
+2. Creativity     : 0.2626
+3. Loyalty        : 0.2305
+4. Dueling        : 0.1360
+5. Bravery        : 0.0148
+6. Intelligence   : 0.0077
+7. Quidditch      : 0.0000
+8. Ambition       : 0.0000
+9. Blood Status   : 0.0000
+
+
+============================================================
+RANDOM FOREST WITH HYPERPARAMETER TUNING
+============================================================
+
+Searching for best hyperparameters...
+Parameter space:
+  n_estimators: [50, 100, 200, 300, 500]
+  max_depth: [5, 10, 15, 20, 25, None]
+  min_samples_split: [2, 5, 10, 15]
+  min_samples_leaf: [1, 2, 4, 8]
+  max_features: ['sqrt', 'log2', None]
+  bootstrap: [True, False]
+  criterion: ['gini', 'entropy']
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+
+Best parameters found:
+  n_estimators: 50
+  min_samples_split: 10
+  min_samples_leaf: 2
+  max_features: log2
+  max_depth: 25
+  criterion: entropy
+  bootstrap: False
+
+Best cross-validation score: 0.9943 (99.43%)
+
+Random Forest Accuracy: 1.0000 (100.00%)
+
+------------------------------------------------------------
+Feature Importance:
+------------------------------------------------------------
+1. Dark Arts      : 0.2328
+2. Dueling        : 0.2190
+3. Loyalty        : 0.1318
+4. Creativity     : 0.1272
+5. Bravery        : 0.1054
+6. Intelligence   : 0.0863
+7. Ambition       : 0.0773
+8. Quidditch      : 0.0198
+9. Blood Status   : 0.0005
+
+
+politically-correct attributes
+============================================================
+DECISION TREE WITH HYPERPARAMETER TUNING
+============================================================
+
+Searching for best hyperparameters for Decision Tree...
+Parameter space:
+  max_depth: [3, 5, 7, 10, 15, 20, None]
+  min_samples_split: [2, 5, 10, 15, 20]
+  min_samples_leaf: [1, 2, 4, 8, 10]
+  criterion: ['gini', 'entropy']
+  splitter: ['best', 'random']
+  max_features: ['sqrt', 'log2', None]
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+
+Best parameters found:
+  splitter: best
+  min_samples_split: 2
+  min_samples_leaf: 2
+  max_features: None
+  max_depth: 20
+  criterion: gini
+
+Best cross-validation score: 0.9443 (94.43%)
+
+Decision Tree Test Accuracy: 0.9433 (94.33%)
+
+------------------------------------------------------------
+Classification Report:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+  Gryffindor       0.88      1.00      0.94        68
+  Hufflepuff       0.99      0.96      0.97        75
+   Ravenclaw       0.95      0.95      0.95        77
+   Slytherin       0.96      0.88      0.92        80
+
+    accuracy                           0.94       300
+   macro avg       0.94      0.95      0.94       300
+weighted avg       0.95      0.94      0.94       300
+
+Confusion Matrix:
+------------------------------------------------------------
+
+            Gryffindor  Hufflepuff  Ravenclaw   Slytherin   
+Gryffindor            68           0           0           0
+Hufflepuff             1          72           2           0
+Ravenclaw              1           0          73           3
+Slytherin              7           1           2          70
+
+------------------------------------------------------------
+Decision Tree Feature Importance:
+------------------------------------------------------------
+1. Ambition       : 0.3234
+2. Loyalty        : 0.2542
+3. Intelligence   : 0.2451
+4. Bravery        : 0.1773
+
+
+============================================================
+RANDOM FOREST WITH HYPERPARAMETER TUNING
+============================================================
+
+Searching for best hyperparameters...
+Parameter space:
+  n_estimators: [50, 100, 200, 300, 500]
+  max_depth: [5, 10, 15, 20, 25, None]
+  min_samples_split: [2, 5, 10, 15]
+  min_samples_leaf: [1, 2, 4, 8]
+  max_features: ['sqrt', 'log2', None]
+  bootstrap: [True, False]
+  criterion: ['gini', 'entropy']
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+
+Best parameters found:
+  n_estimators: 100
+  min_samples_split: 5
+  min_samples_leaf: 2
+  max_features: None
+  max_depth: 20
+  criterion: entropy
+  bootstrap: False
+
+Best cross-validation score: 0.9400 (94.00%)
+
+Random Forest Accuracy: 0.9367 (93.67%)
+
+------------------------------------------------------------
+Feature Importance:
+------------------------------------------------------------
+1. Ambition       : 0.3563
+2. Loyalty        : 0.2811
+3. Bravery        : 0.2394
+4. Intelligence   : 0.1232
